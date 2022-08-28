@@ -22,7 +22,7 @@ sudo pacman -S ctags
 
 
 #install input method
-sudo pacman -S fcitx5 fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx5-chinese-addons
+sudo pacman -S fcitx5 fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx5-chinese-addons fcitx5-rime fcitx5-table-extra
 echo "GTK_IM_MODULE DEFAULT=fcitx\nQT_IM_MODULEDEFAULT=fcitx\nXMODIFIERS    DEFAULT=@im=fcitx" >> ~/.pam_environment
 echo "fcitx5 &" >> ~/.xprofile
 
