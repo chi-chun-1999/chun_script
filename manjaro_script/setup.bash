@@ -35,6 +35,8 @@ sudo pacman -Sy terminator
 # install latex 
 sudo pacman -S texlive-core texlive-langchinese texlive-latexextra texlive-publishers texlive-pictures
 
+yay -Ss texlive-latexindent-meta
+
 sudo pacman -S zathura zathura-pdf-mupdf
 
 
